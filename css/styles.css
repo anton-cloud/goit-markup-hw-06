@@ -505,7 +505,7 @@ footer .container {
 }
 
 .footer-left {
-  flex-basis: calc((50% - 45px) /2 );
+  flex-basis: calc((50% - 45px) / 2);
 }
 
 footer .logo {
@@ -535,6 +535,10 @@ address > p {
     margin: 0px;
 }
 
+footer .social-icon {
+  fill: var(--primary-white-color);
+}
+  
 .subscription {
   flex-basis: calc(50% - 15px);
 
@@ -563,7 +567,6 @@ address > p {
   padding-top: 15px;
   padding-left: 16px;
   padding-bottom: 24px;
-  
 
   font-size: 16px;
   line-height: 1.25;
@@ -583,6 +586,7 @@ address > p {
 .subscription-btn {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   width: 200px;
   height: 50px;
@@ -680,27 +684,30 @@ address > p {
   fill: var(--accent-color);
 }
 
-
 .modal-form {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  
+  margin-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 
-  width: 528px;
-  height: 580px;
 }
 
 .modal-title {
-
+  display: flex;
+  justify-content: center;
   font-size: 20px;
   line-height: 1.17;
   font-weight: 700;
-  text-align: center;
+
+  margin-top: 40px;
+  
 }
 
 .modal-form-field  {
 
-  margin-top: 12px;
+  margin-bottom: 12px;
 
   font-size: 12px;
   line-height: 1.17;
@@ -765,7 +772,7 @@ address > p {
   height: 120px;
   width: 100%;
   resize: none;
-  border: 2px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 12px 16px;
   transition-property:border-color;
@@ -963,7 +970,7 @@ address > p {
 }
 
 .action {
-    flex-basis: calc((50% - 45px) / 2);
+    flex-basis: calc((60% - 45px) / 2);
 
     margin-top: 10px;
 
